@@ -1,0 +1,19 @@
+{
+  "name": "charmmono-red-light",
+  "displayName": "Charmmono Red Light",
+  "description": "Variante local vermelha do Charmmono Light, com fundo claro e destaques em carmim.",
+  "version": "1.0.0",
+  "publisher": "delta-local",
+  "license": "MIT",
+  "engines": { "vscode": "^1.70.0" },
+  "categories": ["Themes"],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Charmmono Red Light",
+        "uiTheme": "vs",
+        "path": "./themes/charmmono-red-light-color-theme.json"
+      }
+    ]
+  }
+}
